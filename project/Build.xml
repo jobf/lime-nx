@@ -172,6 +172,7 @@
 			<compilerflag value="-I${DEVKITPRO}/portlibs/switch/include/GL" />
 			<compilerflag value="-I${DEVKITPRO}/portlibs/switch/include/KHR" />
 			<compilerflag value="-DLIME_OPENGL" />
++			<compilerflag value="-DLIME_GLES" />
 			<file name="src/graphics/cairo/CairoBindings.cpp" />
 			<file name="src/text/Font.cpp" />
 			<file name="src/text/harfbuzz/HarfbuzzBindings.cpp" />
